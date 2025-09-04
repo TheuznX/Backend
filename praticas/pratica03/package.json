@@ -1,13 +1,15 @@
 {
-  "name": "aula04",
+  "name": "pratica03",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
 }
