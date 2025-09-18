@@ -14,4 +14,8 @@ app.use(cookieParser());
 
 app.use('/', indexRouter);
 
+app.get('/tarefas', (req, res) => {
+    res.json([]);
+})
+
 module.exports = app;
